@@ -8,7 +8,7 @@ Since getting funded on Kickstarter requires meeting or exceeding the project's 
 
 ## Summary
 
-Advanced Excel tools are applied to a database of four thousand past Kickstarter projects in order to uncover any hidden market trends. Additional fields, such as Percent Funded, Average Donation, and Category, are also created for better analyze the data. Lastly, VBA is used to create a button that exports all charts as png images which are displayed in the [final report](https://drive.google.com/file/d/1S6bhlECXzxbjm68YPlpwaUzKEzQ3ANSA/view?usp=sharing).
+Advanced Excel tools (including VBA macros) are applied to a database of over four thousand past Kickstarter projects in order to uncover any hidden market trends. Additional quantitative and qualitative fields, such as Percent Funded, Average Donation and Category, are created to assist in the data analysis. Lastly, VBA is used to create a button that exports all charts as PNG images which are displayed in the [final report](https://drive.google.com/file/d/1S6bhlECXzxbjm68YPlpwaUzKEzQ3ANSA/view?usp=sharing).
 
 ## Instructions
 
@@ -48,14 +48,6 @@ Advanced Excel tools are applied to a database of four thousand past Kickstarter
 
   * Now create a pivot chart line graph that visualizes this new table.
 
-* Create a report in Microsoft Word and answer the following questions...
-
-1. What are three conclusions we can make about Kickstarter campaigns given the provided data?
-2. What are some of the limitations of this dataset?
-3. What are some other possible tables/graphs that we could create?
-
-## Bonus
-
 * Create a new sheet with 8 columns: `Goal`, `Number Successful`, `Number Failed`, `Number Canceled`, `Total Projects`, `Percentage Successful`, `Percentage Failed`, and `Percentage Canceled`
 
   * In the `goal` column, create twelve rows with the following headers...
@@ -80,3 +72,11 @@ Advanced Excel tools are applied to a database of four thousand past Kickstarter
   * Add up each of the values in the `Number Successful`, `Number Failed`, and `Number Canceled` columns to populate the `Total Projects` column. Then, using a mathematic formulae, find the percentage of projects which were successful, failed, or were canceled per goal range.
 
   * Create a line chart which graphs the relationship between a goal's amount and its chances at success, failure, or cancellation.
+
+  * Create a VBA macro that loops through each worksheet tab and saves all charts as local PNG files through the click of a button.
+
+* Create a final report in Microsoft Word and answer the following questions...
+
+1. What are three conclusions that could be made about Kickstarter campaigns given the results of the analysis?
+2. What are some of the limitations of this dataset?
+3. What are some other possible fields/graphs that could be created?
